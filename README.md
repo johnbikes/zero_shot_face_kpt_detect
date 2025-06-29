@@ -23,6 +23,13 @@ bash download_ckpts.sh
 ## Test once inside
 - `python grounded_sam2_tracking_demo.py`
 
+## Run a WIDERFACE VAL image through
+- `cp .venv.template .venv`
+- update **WIDERFACE_VAL_HOME**
+- `bash run_scripts/run_grounded_sam_w_mounts.sh`
+- `pip install python-dotenv`
+- `python scripts/grounded_sam2_local_demo_face.py`
+
 ---
 
 # Bonus: Adding submodule
