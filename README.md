@@ -26,7 +26,7 @@ bash download_ckpts.sh
 ## Run a WIDERFACE VAL image through
 - `cp .env.template .env`
 - update **WIDERFACE_VAL_HOME**
-- `bash run_scripts/run_grounded_sam_w_mounts.sh`
+- `make -f custom_makefiles/run_grounded_sam_w_mounts run`
 - `pip install python-dotenv`
 - `python scripts/grounded_sam2_local_demo_face.py`
 
